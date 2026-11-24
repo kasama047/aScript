@@ -67,8 +67,8 @@ If the file exists and is readable, you can use the script.
 ## Script installation
 
 ```bash
-git clone https://github.com/<kasama047>/aorus-linux-control.git
-cd aorus-linux-control
+git clone https://github.com/kasama047/aScript.git
+cd aScript
 chmod +x aorus.fish
 ```
 
