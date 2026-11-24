@@ -15,16 +15,16 @@ The `gigabyte-laptop-wmi` driver exposes fan modes and other parameters through 
 
 ## Features
 
-- **`fan_mode`** — select a fan mode:
+- **`fan_mode`** - select a fan mode:
   - normal;
   - silent;
   - gaming;
   - custom;
   - auto;
   - fixed.
-- **`brightness_of_screen`** — write a brightness value to `sysfs`.
-- **`change_TTL`** — switch `net.ipv4.ip_default_ttl` between `64` and `65`.
-- **`presets`** — ready-made combinations of settings:
+- **`brightness_of_screen`** - write a brightness value to `sysfs`.
+- **`change_TTL`** - switch `net.ipv4.ip_default_ttl` between `64` and `65`.
+- **`presets`** - ready-made combinations of settings:
   - gaming;
   - standard;
   - power_efficiency;
