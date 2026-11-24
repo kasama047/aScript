@@ -51,7 +51,7 @@ function change_TTL
 
     read TTL
 
-    if test $TTL=1 -o $TTL=2
+    if test "$TTL" = "1" -o "$TTL" = "2"
         sudo sysctl -w net.ipv4.ip_default_ttl=$TTL_list[$TTL] > /dev/null
     end
 
